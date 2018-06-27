@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <title>Trivia Game</title>
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Star Wars Trivia Week</title>
+    </head>
     
     <link rel="icon" type="image/png" href="assets/images/death-star-icon.jpeg">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
@@ -21,6 +24,30 @@
 </head>
 <body>
         <embed src="star-wars-theme.mp3" autostart="true" loop="true" hidden="true">  
+
+
+            <body>
+                <header>
+                    <img src='assets/images/pixarHeader.jpg' alt='headerImg' width='100%'>
+                </header>
+                <div class='container'>
+                    <button class='btn btn-primary' id='startBtn'>Start</button>
+                    <!-- Question page -->
+                    <div id=timeLeft></div>
+                    <div id=currentQuestion></div>
+                    <div class='question'></div>
+                    <div class='answerList'></div>
+                    <!-- Answer Page -->
+                    <div id=message></div>
+                    <div id=correctedAnswer></div>
+                    <div id=gif></div>
+                    <!-- Scoreboard -->
+                    <div id=finalMessage></div>
+                    <div id=correctAnswers></div>
+                    <div id=incorrectAnswers></div>
+                    <div id=unanswered></div>
+                    <div id='startOverBtn'></div>
+                </div>
     
     <div id="main-content">
 
