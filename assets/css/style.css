@@ -5,7 +5,10 @@ body {
 	color: rgb(255, 224, 51);
 }
 .container{
-	text-align: center;	
+	text-align: center;
+	color: rgb(255, 224, 51);
+	font-family: star-wars-font, Arial, Helvetica, sans-serif;
+
 }
 
 #title {
