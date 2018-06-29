@@ -1,62 +1,62 @@
 var triviaQuestions = [{
-	question: "In what year was Pixar founded?",
-	answerList: ["1979", "1986", "1995", "2000"],
+	question: "Ben Solo now leads the:?",
+	answerList: ["New Sith Order", "Knights of Ren", "First Order"],
 	answer: 1
 },{
-	question: "Which tech mogul provided funding and became a co-founder of Pixar?",
-	answerList: ["Steve Jobs", "Bill Gates", "Peter Thiel", "Mark Zuckerberg"],
+	question: "Obi-Wan learned to become one with the force from:?",
+	answerList: ["Qui-Gon-Jinn", "Mace Windu", "Yoda"],
 	answer: 0
 },{
-	question: "What was Pixar's first feature-length film that was released in 1995?",
-	answerList: ["Toy Story", "A Bug's Life", "Monster's Inc", "Finding Nemo"],
+	question: "Darth Vader cuts of Luke's_____hand?",
+	answerList: ["Right", "Left"],
 	answer: 0
 },{
-	question: "Who was the first Pixar character added to the Disney Princess line-up?",
-	answerList: ["Jessie", "Repunzel", "Merida", "Elsa"],
+	question: "Han Solo obtains the rank of _____ during the Galactic Civil War.?",
+	answerList: ["Commander", "Admiral", "General"],
 	answer: 2
 },{
-	question: "What's the name of Pixar's first short film, also known as their mascot?",
-	answerList: ["Lampo", "Junior", "Pixie", "Luxo Jr."],
+	question: "Who has the first line in A New Hope?",
+	answerList: ["Luke Skywalker", "R2-D2", "C-3PO", "Princess Leila"],
 	answer: 3
 },{
-	question: "How many sequels does Pixar currently have released? (as of August 2016)",
-	answerList: ["5", "3", "6", "7"],
+	question: "Luke Skywalker's self-imposed exile takes place on:?",
+	answerList: ["Ach-to", "Takodana", "Dagobah"],
 	answer: 0
 },{
-	question: "Which film won Pixar's first Academy Award for Best Animated Feature?",
-	answerList: ["Toy Story", "Finding Nemo", "Up", "Wall-E"],
+	question: "How old is Yoda when he passes?",
+	answerList: ["700", "900", "800", "was omitted from the films"],
 	answer: 1
 },{
-	question: "Who directed Pixar's first three feature films?",
-	answerList: ["Peter Docter", "Brad Bird", "John Lasseter", "Peter Sohn"],
+	question: "What color lasers do the Tie Fighters shoot?",
+	answerList: ["Red", "Orange", "Green"],
 	answer: 2
 },{
-	question: "Who voiced Sadness in 'Inside Out'?",
-	answerList: ["Amy Poehler", "Phyllis Smith", "Mindy Kaling", "Phyllis Vance"],
+	question: "Which of these last names does Leia NOT have a family connection to?",
+	answerList: ["Skywalker", "Fett", "Amidala", "Organa"],
 	answer: 1
 },{
-	question: "Billy Crystal voices Mike Wazowski in 'Monster, Inc.' but what role did he originally turn down from Pixar?",
-	answerList: ["Hopper", "Woody", "Marlin", "Buzz Lightyear"],
+	question: "Who founded the Resistance?",
+	answerList: ["Count Dooku", "Po Dameron", "Admiral Ackbar", "Leia Organa"],
 	answer: 3
 },{
-	question: "The voice of WALL-E, Ben Burtt, also voiced what other famous robot?",
-	answerList: ["R2-D2", "Alpha 5", "C-3PO", "Astro Boy"],
+	question: "George Lucas' orginal las name for Luke was?",
+	answerList: ["Starkiller", "Skykiller", "Starwalker"],
 	answer: 0
 },{
-	question: "Brad Bird directed which animated film prior to taking on 'The Incredibles'?",
-	answerList: ["The Brave Little Toaster", "The Iron Giant", "Tarzan", "The Prince of Egypt"],
+	question: "Yoda claims that Luke's training will not be complete until he:?",
+	answerList: ["Discovers the truth about Leia", "Faces Darth Vader", "Builds a Lighsaber"],
 	answer: 1
 },{
-	question: "Pixar was originally a division of which studio?",
-	answerList: ["Dreamworks", "Industrial Light & Magic", "Disney", "Lucasfilm"],
+	question: "What is the name of Luke's childhood best friend, who later served alongside him in the rebellion?",
+	answerList: ["Jyn Erso", "Wedge Antilles", "Nien Numb", "Biggs Darklighter"],
 	answer: 3
 },{
-	question: "What is the name of the famour explorer from 'Up' that Carl looked up to as a boy?",
-	answerList: ["Charles F. Muntz", "Chuck M. James", "Charlie Rose", "Carl Carlton"],
+	question: "Who's father is responsible for the first Death Star's fatal flaw?",
+	answerList: ["Jyn Erso", "Rey", "Rose Tico"],
 	answer: 0
 },{
-	question: "'A Bug's Life' was loosely based on what other film?",
-	answerList: ["I Live in Fear", "Rashomon", "Seven Samurai", "Magneficent Seven"],
+	question: "Rey is a scavenger from _____ ?",
+	answerList: ["Takodana", "Utapau", "Jakku", "Tatooine"],
 	answer: 2
 }];
 
