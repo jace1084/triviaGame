@@ -31,18 +31,18 @@ h2, #message, #finalMessage{
 	border: solid;
 } */
 .thisChoice:hover{
-	background-color:greenyellow;
+	background-color:rgb(255, 224, 51);
 	color: black;
-	padding: 5px;
+	padding: 2px;
 }
 .btn-primary,.reset{
-	background-color: #313477;
+	background-color: transparent;
 	color: white;
-	font-family: 'Sigmar One', sans-serif;
-	font-size: 100px;
-	padding: 40px;
-	margin-top: 100px;
+	font-family: star-wars-font, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding: 30px;
+	margin-top: 50px;
 }
 .btn-primary:hover, .reset:hover{
-	background-color: white;
+	background-color: transparent;
 }
