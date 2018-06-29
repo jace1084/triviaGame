@@ -27,9 +27,7 @@ h2, #message, #finalMessage{
 	width: 960px;
 	margin: 0px auto 0px auto;
 }
-/* #startOverBtn{
-	border: solid;
-} */
+
 .thisChoice:hover{
 	background-color:rgb(255, 224, 51);
 	color: black;
@@ -37,7 +35,7 @@ h2, #message, #finalMessage{
 }
 .btn-primary,.reset{
 	background-color: transparent;
-	color: white;
+	color:rgb(255, 224, 51);
 	font-family: star-wars-font, Arial, Helvetica, sans-serif;
 	font-size: 20px;
 	padding: 30px;
