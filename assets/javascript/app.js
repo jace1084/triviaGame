@@ -1,5 +1,5 @@
 var triviaQuestions = [{
-	question: "Ben Solo now leads the:?",
+	question: "Ren Solo now leads the:?",
 	answerList: ["New Sith Order", "Knights of Ren", "First Order"],
 	answer: 1
 },{
