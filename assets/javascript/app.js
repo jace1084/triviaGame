@@ -63,10 +63,10 @@ var triviaQuestions = [{
 var gifArray = ['question1', 'question2', 'question3', 'question4', 'question5', 'question6', 'question7', 'question8', 'question9', 'question10', 'question11', 'question12', 'question13','question14','question15'];
 var currentQuestion; var correctAnswer; var wrongAnswer; var unanswered; var seconds; var time; var answered; var userChoice;
 var messages = {
-	correct: "Yes, that's right!",
-	incorrect: "No, that's not it.",
+	correct: "That's Awesome, you're right!!",
+	incorrect: "Nope, the force is not strong with you",
 	endTime: "Out of time!",
-	finished: "Alright! Let's see how well you did."
+	finished: "So, let's see if the force is stong with you"
 }
 
 $('#startBtn').on('click', function(){
