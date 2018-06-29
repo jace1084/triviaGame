@@ -61,7 +61,7 @@ var triviaQuestions = [{
 }];
 
 var gifArray = ['question1', 'question2', 'question3', 'question4', 'question5', 'question6', 'question7', 'question8', 'question9', 'question10', 'question11', 'question12', 'question13','question14','question15'];
-var currentQuestion; var correctAnswer; var incorrectAnswer; var unanswered; var seconds; var time; var answered; var userSelect;
+var currentQuestion; var correctAnswer; var wrongAnswer; var unanswered; var seconds; var time; var answered; var userChoice;
 var messages = {
 	correct: "Yes, that's right!",
 	incorrect: "No, that's not it.",
@@ -86,7 +86,7 @@ function newGame(){
 	$('#unanswered').empty();
 	currentQuestion = 0;
 	correctAnswer = 0;
-	incorrectAnswer = 0;
+	wrongAnswer = 0;
 	unanswered = 0;
 	newQuestion();
 }
@@ -110,7 +110,7 @@ function newQuestion(){
 	countdown();
 	//clicking an answer will pause the time and setup answerPage
 	$('.thisChoice').on('click',function(){
-		userSelect = $(this).data('index');
+		userChoice = $(this).data('index');
 		clearInterval(time);
 		answerPage();
 	});
@@ -143,11 +143,11 @@ function answerPage(){
 	var rightAnswerIndex = triviaQuestions[currentQuestion].answer;
 	$('#gif').html('<img src = "assets/images/'+ gifArray[currentQuestion] +'.gif" width = "400px">');
 	//checks to see correct, incorrect, or unanswered
-	if((userSelect == rightAnswerIndex) && (answered == true)){
+	if((userChoice == rightAnswerIndex) && (answered == true)){
 		correctAnswer++;
 		$('#message').html(messages.correct);
-	} else if((userSelect != rightAnswerIndex) && (answered == true)){
-		incorrectAnswer++;
+	} else if((userChoice != rightAnswerIndex) && (answered == true)){
+		wrongAnswer++;
 		$('#message').html(messages.incorrect);
 		$('#correctedAnswer').html('The correct answer was: ' + rightAnswerText);
 	} else{
@@ -173,7 +173,7 @@ function scoreboard(){
 
 	$('#finalMessage').html(messages.finished);
 	$('#correctAnswers').html("Correct Answers: " + correctAnswer);
-	$('#incorrectAnswers').html("Incorrect Answers: " + incorrectAnswer);
+	$('#incorrectAnswers').html("Incorrect Answers: " + wrongAnswer);
 	$('#unanswered').html("Unanswered: " + unanswered);
 	$('#startOverBtn').addClass('reset');
 	$('#startOverBtn').show();
