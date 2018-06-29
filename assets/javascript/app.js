@@ -161,7 +161,7 @@ function answerPage(){
 		setTimeout(scoreboard, 5000)
 	} else{
 		currentQuestion++;
-		setTimeout(newQuestion, 5000);
+		setTimeout(newQuestion, 3000);
 	}	
 }
 

@@ -10,6 +10,13 @@ body {
 	font-family: star-wars-font, Arial, Helvetica, sans-serif;
 
 }
+#gif{
+	margin: 40px;
+}
+h2, #message, #finalMessage{
+	font-family: star-wars-font, Arial, Helvetica, sans-serif;
+	color: rgb(255, 224, 51);
+}
 
 #title {
 	text-align: center;
@@ -20,6 +27,22 @@ body {
 	width: 960px;
 	margin: 0px auto 0px auto;
 }
-#startOverBtn{
+/* #startOverBtn{
 	border: solid;
+} */
+.thisChoice:hover{
+	background-color:greenyellow;
+	color: black;
+	padding: 5px;
+}
+.btn-primary,.reset{
+	background-color: #313477;
+	color: white;
+	font-family: 'Sigmar One', sans-serif;
+	font-size: 100px;
+	padding: 40px;
+	margin-top: 100px;
+}
+.btn-primary:hover, .reset:hover{
+	background-color: white;
 }
