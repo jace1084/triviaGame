@@ -1,9 +1,9 @@
 var triviaQuestions = [{
-	question: "Ren Solo now leads the:?",
+	question: "Ren Solo now leads the?",
 	answerList: ["New Sith Order", "Knights of Ren", "First Order"],
 	answer: 1
 },{
-	question: "Obi-Wan learned to become one with the force from:?",
+	question: "Obi-Wan learned to become one with the force from?",
 	answerList: ["Qui-Gon-Jinn", "Mace Windu", "Yoda"],
 	answer: 0
 },{
@@ -11,7 +11,7 @@ var triviaQuestions = [{
 	answerList: ["Right", "Left"],
 	answer: 0
 },{
-	question: "Han Solo obtains the rank of _____ during the Galactic Civil War.?",
+	question: "Han Solo obtains the rank of _____ during the Galactic Civil War?",
 	answerList: ["Commander", "Admiral", "General"],
 	answer: 2
 },{
@@ -19,7 +19,7 @@ var triviaQuestions = [{
 	answerList: ["Luke Skywalker", "R2-D2", "C-3PO", "Princess Leila"],
 	answer: 3
 },{
-	question: "Luke Skywalker's self-imposed exile takes place on:?",
+	question: "Luke Skywalker's self-imposed exile takes place on?",
 	answerList: ["Ach-to", "Takodana", "Dagobah"],
 	answer: 0
 },{
@@ -39,11 +39,11 @@ var triviaQuestions = [{
 	answerList: ["Count Dooku", "Po Dameron", "Admiral Ackbar", "Leia Organa"],
 	answer: 3
 },{
-	question: "George Lucas' orginal las name for Luke was?",
+	question: "George Lucas' orginal last name for Luke was?",
 	answerList: ["Starkiller", "Skykiller", "Starwalker"],
 	answer: 0
 },{
-	question: "Yoda claims that Luke's training will not be complete until he:?",
+	question: "Yoda claims that Luke's training will not be complete until he?",
 	answerList: ["Discovers the truth about Leia", "Faces Darth Vader", "Builds a Lighsaber"],
 	answer: 1
 },{
