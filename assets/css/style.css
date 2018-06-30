@@ -13,9 +13,13 @@ body {
 #gif{
 	margin: 40px;
 }
-h2, #message, #finalMessage{
+h2, #message, #finalMessage, #correctedAnswer{
 	font-family: star-wars-font, Arial, Helvetica, sans-serif;
-	color: rgb(255, 224, 51);
+	color: coral;
+	font-size: 25px;
+}
+#currentQuestion, .answerList{
+	font-size: 20px;
 }
 
 #title {
@@ -29,9 +33,9 @@ h2, #message, #finalMessage{
 }
 
 .thisChoice:hover{
-	background-color:rgb(255, 224, 51);
-	color: black;
-	padding: 2px;
+	background-color: transparent;
+	color: greenyellow;
+	padding: 3px;
 }
 .btn-primary,.reset{
 	background-color: transparent;
